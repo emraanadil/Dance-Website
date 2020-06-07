@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+       title Adil Dance Academy
+       block scripts
+       block style
+        include ../static/style.css
+    body
+
+      nav#navbar
+        ul
+            div#logo
+              img(src="/static/logo.png", alt="ADA")
+            li #[a(href="/") HOME]
+            li #[a(href="/") ABOUT]
+            li #[a(href="/") SERVICES]
+            li #[a(href="/") CLASSES INFO]
+            li #[a(href="/contact") CONTACT US]
+      block content
+    
+      footer#footer
+              |Copyright ©2019 www.adildanceacademy.com 
+      

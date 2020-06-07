@@ -1,0 +1,59 @@
+doctype html
+html
+ head
+    title
+       |Adil Dance Academy
+    style
+        include ../static/style.css
+ body
+
+    nav#navbar
+        ul
+            div#logo
+              img(src="/static/logo.png", alt="ADA")
+            li #[a(href="/") HOME]
+            li #[a(href="/") ABOUT]
+            li #[a(href="/") SERVICES]
+            li #[a(href="/") CLASSES INFO]
+            li #[a(href="/") CONTACT US]
+    
+    section#introsection   
+          div Welcome to Adil's Dance Academy
+          div.small Eat Sleep Dance Repeat!   
+    section#ourmission
+      h2 OUR MISSION 
+      div.card
+        h3 Dance The Way You Like
+         div.cardbox
+         div.cardimg
+          img(src="/static/imgs/classes.png", alt="")
+         div.cardcontent
+          p This is the best dance academy in world.
+      div.card
+         h3 Dance Perfection
+         div.cardbox
+         div.cardimg
+          img(src="/static/imgs/perf.png", alt="")
+         div.cardcontent
+          p This is the best dance academy in world.
+      div.card
+         h3 Dance Courses
+         div.cardbox
+         div.cardimg
+          img(src="/static/imgs/2nafar.png", alt="")
+         div.cardcontent
+          p |This is the best dance academy in world.
+      
+
+    section#sponsorsection        
+              h2 OUR SPONSORS
+              div#sponsors
+                img(src="/static/imgs/apple.png", alt="SPONSORLOGO",class="spimage")
+                img(src="/static/imgs/microsoft.png", alt="SPONSORLOGO",class="spimage")
+                img(src="/static/imgs/google.png", alt="SPONSORLOGO",class="spimage")
+                img(src="/static/imgs/fb.png", alt="SPONSORLOGO",class="spimage")
+
+    footer#footer
+      |Copyright ©2019 www.adildanceacademy.com
+    script  
+            include ../static/index.js     

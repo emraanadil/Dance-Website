@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+     script(src="/app.js")
+
+block style
+    style 
+      include  ../static/style.css
+block content
+    section#introsection   
+          div Welcome to ADIL DANCE ACADEMY
+              div.small Eat Sleep Dance Repeat !   
+    section#ourmission
+      h2 OUR MISSION 
+      div.card
+        h3 Dance The Way You Like
+         div.cardbox
+         div.cardimg
+          img(src="/static/imgs/classes.png", alt="")
+         div.cardcontent
+          p This is the best dance academy in world. lorem44
+      div.card
+        h3 Dance Perfection
+         div.cardbox
+         div.cardimg
+          img(src="/static/imgs/perf.png", alt="")
+         div.cardcontent
+          p This is the best dance academy in world.
+      div.card
+        h3 Dance Perfection
+         div.cardbox
+         div.cardimg
+          img(src="/static/imgs/2nafar.png", alt="")
+         div.cardcontent
+          p This is the best dance academy in world.
+      
+
+    section#sponsorsection        
+              h2 OUR SPONSORS
+              div#sponsors
+                img(src="/static/imgs/apple.png", alt="SPONSORLOGO",class="spimage")
+                img(src="/static/imgs/microsoft.png", alt="SPONSORLOGO",class="spimage")
+                img(src="/static/imgs/google.png", alt="SPONSORLOGO",class="spimage")
+                img(src="/static/imgs/fb.png", alt="SPONSORLOGO",class="spimage")
+    
